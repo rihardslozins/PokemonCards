@@ -17,6 +17,9 @@
 		B95ABC2E25D2BC1F008AB0A7 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95ABC2D25D2BC1F008AB0A7 /* Pokemon.swift */; };
 		B95ABC3125D2BE28008AB0A7 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95ABC3025D2BE28008AB0A7 /* NetworkController.swift */; };
 		B95ABC3425D2C277008AB0A7 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95ABC3325D2C277008AB0A7 /* ImageController.swift */; };
+		B9C4F9AD25D3D7520012EF70 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9C4F9AA25D3D7520012EF70 /* TitilliumWeb-SemiBold.ttf */; };
+		B9C4F9AE25D3D7520012EF70 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9C4F9AB25D3D7520012EF70 /* TitilliumWeb-Regular.ttf */; };
+		B9C4F9AF25D3D7520012EF70 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9C4F9AC25D3D7520012EF70 /* TitilliumWeb-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		B95ABC2D25D2BC1F008AB0A7 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		B95ABC3025D2BE28008AB0A7 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		B95ABC3325D2C277008AB0A7 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		B9C4F9AA25D3D7520012EF70 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		B9C4F9AB25D3D7520012EF70 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		B9C4F9AC25D3D7520012EF70 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 				B95ABC2725D2B99D008AB0A7 /* Models */,
 				B95ABC2425D2B97F008AB0A7 /* Controller */,
 				B95ABC2625D2B991008AB0A7 /* View */,
+				B9C4F9A925D3D7200012EF70 /* Fonts */,
 				B95ABC1425D2B85A008AB0A7 /* Assets.xcassets */,
 				B95ABC1925D2B85A008AB0A7 /* Info.plist */,
 			);
@@ -117,6 +124,16 @@
 				B95ABC3325D2C277008AB0A7 /* ImageController.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		B9C4F9A925D3D7200012EF70 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9C4F9AC25D3D7520012EF70 /* TitilliumWeb-Light.ttf */,
+				B9C4F9AB25D3D7520012EF70 /* TitilliumWeb-Regular.ttf */,
+				B9C4F9AA25D3D7520012EF70 /* TitilliumWeb-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9C4F9AF25D3D7520012EF70 /* TitilliumWeb-Light.ttf in Resources */,
+				B9C4F9AE25D3D7520012EF70 /* TitilliumWeb-Regular.ttf in Resources */,
+				B9C4F9AD25D3D7520012EF70 /* TitilliumWeb-SemiBold.ttf in Resources */,
 				B95ABC1825D2B85A008AB0A7 /* LaunchScreen.storyboard in Resources */,
 				B95ABC1525D2B85A008AB0A7 /* Assets.xcassets in Resources */,
 				B95ABC1325D2B859008AB0A7 /* Main.storyboard in Resources */,

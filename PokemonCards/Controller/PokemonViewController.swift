@@ -17,7 +17,7 @@ class PokemonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Pokemon List"
+        self.title = "Pokemons"
         getPokemonData()
         
     }
@@ -75,6 +75,7 @@ extension PokemonViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "pokemonCell", for: indexPath)
         
         cell.textLabel?.text = pokey[indexPath.row].name
+        cell.detailTextLabel?.text = pokey[indexPath.row].subtype
         
         return cell
     }
