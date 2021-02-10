@@ -17,6 +17,7 @@
 		B95ABC2E25D2BC1F008AB0A7 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95ABC2D25D2BC1F008AB0A7 /* Pokemon.swift */; };
 		B95ABC3125D2BE28008AB0A7 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95ABC3025D2BE28008AB0A7 /* NetworkController.swift */; };
 		B95ABC3425D2C277008AB0A7 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95ABC3325D2C277008AB0A7 /* ImageController.swift */; };
+		B9A5680F25D407C800621BB7 /* PokeyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5680E25D407C800621BB7 /* PokeyTableViewCell.swift */; };
 		B9C4F9AD25D3D7520012EF70 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9C4F9AA25D3D7520012EF70 /* TitilliumWeb-SemiBold.ttf */; };
 		B9C4F9AE25D3D7520012EF70 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9C4F9AB25D3D7520012EF70 /* TitilliumWeb-Regular.ttf */; };
 		B9C4F9AF25D3D7520012EF70 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9C4F9AC25D3D7520012EF70 /* TitilliumWeb-Light.ttf */; };
@@ -35,6 +36,7 @@
 		B95ABC2D25D2BC1F008AB0A7 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		B95ABC3025D2BE28008AB0A7 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		B95ABC3325D2C277008AB0A7 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		B9A5680E25D407C800621BB7 /* PokeyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeyTableViewCell.swift; sourceTree = "<group>"; };
 		B9C4F9AA25D3D7520012EF70 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
 		B9C4F9AB25D3D7520012EF70 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
 		B9C4F9AC25D3D7520012EF70 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				B95ABC0F25D2B859008AB0A7 /* PokemonViewController.swift */,
 				B95ABC2A25D2BB83008AB0A7 /* PokemonDetailViewController.swift */,
+				B9A5680E25D407C800621BB7 /* PokeyTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				B95ABC3125D2BE28008AB0A7 /* NetworkController.swift in Sources */,
 				B95ABC2B25D2BB83008AB0A7 /* PokemonDetailViewController.swift in Sources */,
 				B95ABC0C25D2B859008AB0A7 /* AppDelegate.swift in Sources */,
+				B9A5680F25D407C800621BB7 /* PokeyTableViewCell.swift in Sources */,
 				B95ABC0E25D2B859008AB0A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

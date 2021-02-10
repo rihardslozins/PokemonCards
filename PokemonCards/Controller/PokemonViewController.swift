@@ -64,7 +64,7 @@ class PokemonViewController: UIViewController {
     
 }
 
-extension PokemonViewController: UITableViewDataSource {
+extension PokemonViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pokey.count
@@ -72,11 +72,24 @@ extension PokemonViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "pokemonCell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "pokemonCell", for: indexPath) as? PokeyTableViewCell else {
+            return UITableViewCell()
+        }
         
-        cell.textLabel?.text = pokey[indexPath.row].name
-        cell.detailTextLabel?.text = pokey[indexPath.row].subtype
+        //        cell.textLabel?.text = pokey[indexPath.row].name
+        //
+        //        cell.detailTextLabel?.text = pokey[indexPath.row].subtype
+        
+        let poke = pokey[indexPath.row]
+        cell.setUI(with: poke)
+        cell.selectionStyle = .none
+        
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 220
+    }
+    
 }
